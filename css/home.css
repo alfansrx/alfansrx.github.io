@@ -1,0 +1,74 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+#header {
+    /* border: red 2px solid; */
+    width: 100%;
+    height: 800px;
+    background-color: #07172e;
+}
+#header div {
+    /* display: inline-block; */
+    float: left;
+}
+#title {
+    /* border: brown 2px solid; */
+    color: #bc9060;
+    width: fit-content;
+    height: 100px;
+    margin: 0 100px;
+}
+#menu {
+    /* border: red 2px solid; */
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+}
+#menu ul {
+    /* border: salmon 2px solid; */
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    /* padding-top: 20px */
+}
+#menu ul li {
+    /* border: solid 2px red; */
+    float: left;
+    width: 72px;
+    margin-left: 10px;
+}
+#menu .menu_project .menu_hide{
+    position: relative;
+    margin: 0;
+}
+/* #menu .menu_project {
+    border: red solid 2px;
+} */
+#menu .menu_project .menu_hide li{
+    /* border: 2px rgb(10, 12, 8) solid; */
+    display: none;
+    width: 100px;
+    margin-left: 2px;
+    margin-top: 10px;
+    text-align: left;
+    opacity: 60%;
+}
+#menu .menu_project:hover .menu_hide li{
+    display: inline-block;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+#menu a:hover {
+    color: #bc9060;
+}
